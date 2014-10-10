@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="58cm" height="25cm" viewBox="59 8 1157 493" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="260" y="60" width="131.85" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="60" width="131.85" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="325.925" y="81.9">
+      <tspan x="325.925" y="81.9">Dia Database File</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="270" y1="84.9" x2="381.85" y2="84.9"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="60" y="60" width="82.95" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="60" y="60" width="82.95" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="101.475" y="81.9">
+      <tspan x="101.475" y="81.9">Controller</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="70" y1="84.9" x2="132.95" y2="84.9"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="325.925" y1="96" x2="325.925" y2="170"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="325.925" y1="210" x2="325.925" y2="332"/>
+    <rect style="fill: #ffffff" x="318.925" y="170" width="14" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="318.925" y="170" width="14" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="101.475" y1="78" x2="101.475" y2="168"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="101.475" y1="208" x2="101.475" y2="300"/>
+    <rect style="fill: #ffffff" x="94.475" y="168" width="14" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="94.475" y="168" width="14" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="301.926" y1="169.838" x2="108.475" y2="168"/>
+    <polygon style="fill: #000000" points="301.878,174.838 317.925,169.99 301.973,164.839 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="301.878,174.838 317.925,169.99 301.973,164.839 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="213.7" y="179">read_file</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="420" y="60" width="221.55" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="420" y="60" width="221.55" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="530.775" y="81.9">
+      <tspan x="530.775" y="81.9">Parse Dia Database File Factory</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="430" y1="84.9" x2="631.55" y2="84.9"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="530.775" y1="96" x2="530.775" y2="180"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="530.775" y1="440" x2="530.775" y2="500"/>
+    <rect style="fill: #ffffff" x="523.775" y="180" width="14" height="260"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="523.775" y="180" width="14" height="260"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="506.775" y1="180" x2="332.925" y2="180"/>
+    <polygon style="fill: #000000" points="506.775,185 522.775,180 506.775,175 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="506.775,185 522.775,180 506.775,175 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="428.35" y="190">parse</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="450" y="8.1" width="165.65" height="46.9"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="450" y="20">
+      <tspan x="450" y="20">This should probably</tspan>
+      <tspan x="450" y="36">be a factory creating</tspan>
+      <tspan x="450" y="52">objects based on the xml.</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="1040" y="60" width="175" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1040" y="60" width="175" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1127.5" y="81.9">
+      <tspan x="1127.5" y="81.9">Dia Database Reference</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="1050" y1="84.9" x2="1205" y2="84.9"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="870" y="60" width="143.6" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="870" y="60" width="143.6" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="941.8" y="81.9">
+      <tspan x="941.8" y="81.9">Dia Database Table</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="880" y1="84.9" x2="1003.6" y2="84.9"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="1127.5" y1="96" x2="1127.5" y2="390"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="1127.5" y1="430" x2="1127.5" y2="435"/>
+    <rect style="fill: #ffffff" x="1120.5" y="390" width="14" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1120.5" y="390" width="14" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="941.8" y1="96" x2="941.8" y2="340"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="941.8" y1="380" x2="941.8" y2="435"/>
+    <rect style="fill: #ffffff" x="934.8" y="340" width="14" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="934.8" y="340" width="14" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="917.8" y1="340" x2="537.775" y2="340"/>
+    <polygon style="fill: #000000" points="917.8,345 933.8,340 917.8,335 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="917.8,345 933.8,340 917.8,335 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="736.287" y="350">&lt;&lt;create&gt;&gt;</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1103.5" y1="390" x2="537.775" y2="390"/>
+    <polygon style="fill: #000000" points="1103.5,395 1119.5,390 1103.5,385 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1103.5,395 1119.5,390 1103.5,385 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="829.137" y="400">&lt;&lt;create&gt;&gt;</text>
+  </g>
+  <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="530" y="325" width="615" height="120"/>
+  <g>
+    <rect style="fill: #ffffff" x="545" y="303.1" width="30.8" height="14.9"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal" x="545" y="315">
+      <tspan x="545" y="315">Loop</tspan>
+    </text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="670" y="60" width="165.4" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="670" y="60" width="165.4" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="752.7" y="81.9">
+      <tspan x="752.7" y="81.9">Dia Database Diagram</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="680" y1="84.9" x2="825.4" y2="84.9"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="752.7" y1="96" x2="752.7" y2="190"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="752.7" y1="230" x2="752.7" y2="455"/>
+    <rect style="fill: #ffffff" x="745.7" y="190" width="14" height="40"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="745.7" y="190" width="14" height="40"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="728.7" y1="190" x2="537.775" y2="190"/>
+    <polygon style="fill: #000000" points="728.7,195 744.7,190 728.7,185 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="728.7,195 744.7,190 728.7,185 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="641.737" y="200">&lt;&lt;create&gt;&gt;</text>
+  </g>
+</svg>
