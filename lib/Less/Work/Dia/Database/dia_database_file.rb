@@ -1,0 +1,2 @@
+class DiaDatabaseFile
+end
