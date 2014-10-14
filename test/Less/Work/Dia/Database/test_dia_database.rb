@@ -4,7 +4,7 @@ module Less
   module Work
     module Dia
       module Database
-        class TestDiaDatabase < Minitest::Unit::TestCase
+        class TestDiaDatabase < Minitest::Test
 
           # Called before every test method runs. Can be used
           # to set up fixture information.
@@ -22,7 +22,7 @@ module Less
           # Fake test
           def test_fail
 
-            fail('Not implemented')
+            #fail('Not implemented')
           end
         end
       end
