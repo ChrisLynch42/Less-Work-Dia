@@ -1,6 +1,7 @@
 require 'minitest/autorun'
 require_relative 'test_dia_database_file_mixin'
 
+
 module Less
   module Work
     module Dia
