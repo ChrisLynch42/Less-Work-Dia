@@ -1,16 +1,12 @@
 require 'nokogiri'
+require_relative '../base_mixin'
 
 class DiaDatabaseFile
+  include BaseMixin
 
   def read_file(parameters = {})
-    if parameters.nil? || !parameters.is_a?(::Hash)
-      raise ArgumentError, 'Missing parameters hash.'
-    end
-    file_path = parameters[:file_path]
-    if file_path.nil?
-      raise ArgumentError, 'Missing dia diagram file path.'
-    end
-    parse_file_content(open_file(file_path))
+    parameters_pair_nil?(parameters,:file_path)
+    parse_file_content(open_file(parameters[:file_path]))
   end
 
 

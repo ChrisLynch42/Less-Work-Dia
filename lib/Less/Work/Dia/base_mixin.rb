@@ -7,15 +7,15 @@ module BaseMixin
 
   def parameters_pair_nil?(parameters,key)
     parameters_nil?(parameters)
-    if parameters[key].nil?
-      raise ArgumentError, 'Missing value for key ' + key
-    end
+    pair_nil?(parameters,key)
   end
 
   def pair_nil?(parameters,key)
     if parameters[key].nil?
-      raise ArgumentError, 'Missing value for key ' + key
+      raise ArgumentError, 'Missing value for key ' + key.to_s, caller
     end
   end
+
+
 
 end
