@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative 'test_dia_database_file_mixin'
+require_relative 'test_diagram_file_mixin'
 
 
 module Less
@@ -10,7 +10,7 @@ module Less
           include Less::Work::Dia::Database::TestDiaDatabaseFileMixin
 
           def setup
-            @object = DiaDatabaseFile.new()
+            @object = DiagramFile.new()
           end
         end
       end

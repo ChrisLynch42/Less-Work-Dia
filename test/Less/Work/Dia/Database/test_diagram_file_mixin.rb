@@ -1,4 +1,4 @@
-require_relative '../../../../../lib/Less/Work/Dia/Database/dia_database_file'
+require_relative '../../../../../lib/Less/Work/Dia/diagram_file'
 require_relative '../../../../test_helper'
 
 module Less
