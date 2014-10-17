@@ -1,12 +1,12 @@
 require 'nokogiri'
-require_relative '../base_mixin'
+require_relative '../parameter_mixin'
 
 
 module Less
   module Work
     module Dia
       class DiagramFile
-        include BaseMixin
+        include ParameterMixin
 
         def read_file(parameters = {})
           parameters_pair_check(parameters,:file_path)

@@ -1,7 +1,7 @@
 
 module Less
   module Work
-    module BaseMixin
+    module ParameterMixin
       def parameters_hash_check(parameters)
           parameters.to_h
         rescue

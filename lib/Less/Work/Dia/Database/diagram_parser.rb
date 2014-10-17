@@ -1,10 +1,10 @@
-require_relative '../../base_mixin'
+require_relative '../../parameter_mixin'
 
 module Less
   module Work
     module Dia
       class DiagramParser
-        include BaseMixin
+        include ParameterMixin
 
 
         def initialize
