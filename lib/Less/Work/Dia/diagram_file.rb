@@ -1,11 +1,11 @@
 require 'nokogiri'
-require_relative '../../base_mixin'
+require_relative '../base_mixin'
 
 
 module Less
   module Work
     module Dia
-      class DiaDatabaseFile
+      class DiagramFile
         include BaseMixin
 
         def read_file(parameters = {})
