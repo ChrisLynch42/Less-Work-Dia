@@ -3,11 +3,9 @@ module Less
   module Work
     module BaseMixin
       def parameters_hash?(parameters)
-        begin
           parameters.to_h
         rescue
           raise ArgumentError, 'Parameter should be Hash or implement #to_h.', caller
-        end
       end
 
       def parameters_pair_nil?(parameters,key)
