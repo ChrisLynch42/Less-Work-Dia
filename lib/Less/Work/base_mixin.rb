@@ -2,24 +2,20 @@
 module Less
   module Work
     module BaseMixin
-      def parameters_nil?(parameters)
-        if parameters.nil? || !parameters.is_a?(::Hash)
-          raise ArgumentError, 'Missing parameters hash.', caller
+      def parameters_hash?(parameters)
+        begin
+          parameters = parameters.to_h
+        rescue
+          raise ArgumentError, 'Parameter should be Hash or implement #to_h.', caller
         end
       end
 
       def parameters_pair_nil?(parameters,key)
-        parameters_nil?(parameters)
-        pair_nil?(parameters,key)
-      end
-
-      def pair_nil?(parameters,key)
-        if parameters[key].nil?
-          raise ArgumentError, 'Missing value for key ' + key.to_s, caller
+        parameters_hash?(parameters)
+        parameters.fetch(key) do
+          raise ArgumentError, 'Parameter should be hash containing key ' + key.to_s, caller
         end
       end
-
-
 
     end
   end
