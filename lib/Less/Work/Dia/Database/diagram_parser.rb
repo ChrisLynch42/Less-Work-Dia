@@ -1,4 +1,4 @@
-require_relative '../base_mixin'
+require_relative '../../base_mixin'
 
 module Less
   module Work
@@ -15,7 +15,7 @@ module Less
 
 
         def parse(parameters = {})
-          parameters_pair_nil? parameters, :diagram_xml
+          parameters_pair_check parameters, :diagram_xml
           parse_tables(parameters[:diagram_xml])
           parse_references(parameters[:diagram_xml])
 

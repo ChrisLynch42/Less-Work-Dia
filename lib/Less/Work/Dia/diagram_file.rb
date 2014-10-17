@@ -9,7 +9,7 @@ module Less
         include BaseMixin
 
         def read_file(parameters = {})
-          parameters_pair_nil?(parameters,:file_path)
+          parameters_pair_check(parameters,:file_path)
           parse_file_content(open_file(parameters[:file_path]))
         end
 
