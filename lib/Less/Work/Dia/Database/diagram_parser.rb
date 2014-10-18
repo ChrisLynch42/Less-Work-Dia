@@ -1,29 +1,32 @@
 require_relative '../../parameter_mixin'
+require_relative '../object_parser_mixin'
 
 module Less
   module Work
     module Dia
       class DiagramParser
         include ParameterMixin
+        include ObjectParserMixin
+
+        attr_reader :tables_by_name, :tables_by_id, :references
 
 
-        def initialize
+        def initialize(parameters = {})
           self.tables_by_name=Hash.new()
           self.tables_by_id=Hash.new()
           self.references=Hash.new()
+
+          parse(parameters);
         end
 
+        private
+        attr_writer :tables_by_name, :tables_by_id, :references
 
-        def parse(parameters = {})
+        def parse(parameters)
           parameters_pair_check parameters, :diagram_xml
           parse_tables(parameters[:diagram_xml])
           parse_references(parameters[:diagram_xml])
-
         end
-
-
-        private
-        attr_accessor :tables_by_name, :tables_by_id, :references
 
         def parse_references(diagram_xml)
           reference_nodes =self.dia_xml.xpath("//dia:object[@type='Database - Reference']")
