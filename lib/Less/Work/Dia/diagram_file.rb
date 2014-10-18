@@ -7,14 +7,20 @@ module Less
     module Dia
       class DiagramFile
         include ParameterMixin
+        attr_reader :diagram_xml
 
-        def read_file(parameters = {})
+        def initialize(parameters)
+          read_file_in(parameters)
+        end
+
+        private
+        attr_writer :diagram_xml
+
+        def read_file_in(parameters)
           parameters_pair_check(parameters,:file_path)
           parse_file_content(open_file(parameters[:file_path]))
         end
 
-
-        private
         def open_file(file_path)
           if File.exist?(file_path)
             f = File.open(file_path)
@@ -23,7 +29,7 @@ module Less
 
         def parse_file_content(file)
           if !file.nil?
-            dia_xml = Nokogiri::XML(file)
+            self.diagram_xml = Nokogiri::XML(file)
           end
         end
       end
