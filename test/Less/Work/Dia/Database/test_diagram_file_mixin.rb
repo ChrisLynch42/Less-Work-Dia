@@ -5,7 +5,7 @@ module Less
   module Work
     module Dia
       module Database
-        module TestDiaDatabaseFileMixin
+        module TestDiagramFileMixin
           def test_read_file_method_exist
             assert_respond_to(@object, :read_file)
           end

@@ -7,7 +7,7 @@ module Less
     module Dia
       module Database
         class TestDiaDatabaseFile < Minitest::Test
-          include Less::Work::Dia::Database::TestDiaDatabaseFileMixin
+          include Less::Work::Dia::Database::TestDiagramFileMixin
 
           def setup
             @object = DiagramFile.new()
