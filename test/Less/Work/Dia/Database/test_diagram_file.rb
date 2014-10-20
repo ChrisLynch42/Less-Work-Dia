@@ -8,7 +8,7 @@ module Less
   module Work
     module Dia
       module Database
-        class TestDiaDatabaseFile < Minitest::Test
+        class TestDiagramFile < Minitest::Test
 
 
           def test_no_parameter
