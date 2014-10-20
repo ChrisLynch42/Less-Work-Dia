@@ -1,5 +1,10 @@
 require_relative '../../parameter_mixin'
 require_relative '../object_parser_mixin'
+require_relative 'table'
+require_relative 'reference'
+require_relative 'column'
+require_relative 'diagram_object'
+
 
 module Less
   module Work
@@ -8,19 +13,16 @@ module Less
         include ParameterMixin
         include ObjectParserMixin
 
-        attr_reader :tables_by_name, :tables_by_id, :references
+        attr_reader :diagram_object
 
 
         def initialize(parameters = {})
-          self.tables_by_name=Hash.new()
-          self.tables_by_id=Hash.new()
-          self.references=Hash.new()
-
+          self.diagram_object=DiagramObject.new()
           parse(parameters);
         end
 
         private
-        attr_writer :tables_by_name, :tables_by_id, :references
+        attr_writer :diagram_object
 
         def parse(parameters)
           parameters_pair_check parameters, :diagram_xml
@@ -29,36 +31,48 @@ module Less
         end
 
         def parse_references(diagram_xml)
-          reference_nodes =self.dia_xml.xpath("//dia:object[@type='Database - Reference']")
+          reference_nodes = diagram_xml.xpath("//dia:object[@type='Database - Reference']")
           if !reference_nodes.nil?
 
             reference_nodes.each do |reference_node|
-              reference_parser = @parser_class_factory.parser(REFERENCE)
-              reference_parser_object=reference_parser.new()
-              reference_parser_object.parse(reference_node)
-              if !reference_parser_object.nil?
-                @references[reference_parser_object.id] = reference_parser_object
-              end
+              reference = Reference.new()
+              diagram_object.references[reference.diagram_id] = reference
             end
           end
 
         end
 
         def parse_tables(diagram_xml)
-          table_nodes =self.dia_xml.xpath("//dia:object[@type='Database - Table']")
+          table_nodes = diagram_xml.xpath("//dia:object[@type='Database - Table']")
           if !table_nodes.nil?
             table_nodes.each do |table_node|
-              table_parser = @parser_class_factory.parser(TABLE)
-              table_parser_object=table_parser.new()
-              table_parser_object.parse(table_node)
-              if !table_parser_object.nil?
-                self.tables_by_name[table_parser_object.name] = table_parser_object
-                self.tables_by_id[table_parser_object.object_id] = table_parser_object
-              end
+              table = Table.new()
+              table.name=get_dia_string(table_node,'name')
+              parse_table_columns(table_node,table)
+              diagram_object.tables[table.name] = table
+              diagram_object.tables_by_id[table.diagram_id] = table
             end
           end
-
         end
+
+        def parse_table_columns(table_node,table)
+          column_nodes = table_node.xpath("./dia:attribute[@name='attributes']/dia:composite[@type='table_attribute']")
+          if !column_nodes.nil?
+            column_nodes.each do |column_node|
+              column = Column.new()
+              column.name=get_dia_string(column_node,'name')
+              column.data_type = get_dia_string(column_node,'type')
+              column.comment = get_dia_string(column_node,'comment')
+              column.primary_key = get_dia_boolean(column_node,'primary_key')
+              column.nullable = get_dia_boolean(column_node,'nullable')
+              column.unique = get_dia_boolean(column_node,'unique')
+
+              table.columns[column.name] = column
+              table.columns_in_order[table.columns_in_order.length] = column
+            end
+          end
+        end
+
 
       end
     end
