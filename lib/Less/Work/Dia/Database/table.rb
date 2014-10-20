@@ -10,6 +10,10 @@ module Less
           self.columns_in_order = Hash.new()
           self.references = Hash.new()
         end
+
+        private
+        attr_writer :columns, :columns_in_order, :references
+
       end
     end
   end
