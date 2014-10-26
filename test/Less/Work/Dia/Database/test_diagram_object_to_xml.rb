@@ -25,17 +25,9 @@ module Less
             diagram_object_to_xml = DiagramObjectToXML.new()
             xml_fragment = diagram_object_to_xml.get_column_fragment
             assert_respond_to(xml_fragment, :to_xml, 'Column fragment is not a nokogiri document fragment')
-            xml_fragment.root.add_namespace_definition("dia", "http://www.lysator.liu.se/~alla/dia/")
-            puts xml_fragment.collect_namespaces().to_s
-            puts 'xxx'
-            #xml_fragment.remove_namespaces!
-            #puts xml_fragment.to_xml
-            #some_nodes = xml_fragment.xpath("//dia:attribute", 'dia' => 'http://www.lysator.liu.se/~alla/dia/')
-            some_nodes = xml_fragment.root.xpath("//dia:attribute")
-            puts xml_fragment.root['type']
-            puts some_nodes.to_s
-            puts 'yyy'
-            #assert_equal('table_xattribute', xml_fragment['type'],"Column fragment does not have a type of table_attribute")
+            composite_nodes = xml_fragment.xpath("dia:composite")
+            assert(composite_nodes.length > 0, 'XPath query for dia:composite failed!')
+            assert_equal('table_attribute', composite_nodes.first['type'],"Composite node does not have a type of table_attribute")
           end
         end
       end
