@@ -2,7 +2,7 @@ module Less
   module Work
     module Dia
       module Database
-        module XMLFragmentMixin
+        class DiagramFragments
 
           def namespaced_fragement(xml_fragment)
             xml_doc = Nokogiri::XML(%Q(<root xmlns:dia='http://www.lysator.liu.se/~alla/dia/'/>))
