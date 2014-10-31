@@ -21,6 +21,7 @@ module Less
           end
 
           # Fake test
+=begin
           def test_get_column_fragment
             diagram_object_to_xml = DiagramObjectToDiagramXML.new()
             xml_fragment = diagram_object_to_xml.get_column_fragment
@@ -29,6 +30,8 @@ module Less
             assert(composite_nodes.length > 0, 'XPath query for dia:composite failed!')
             assert_equal('table_attribute', composite_nodes.first['type'],"Composite node does not have a type of table_attribute")
           end
+
+=end
         end
       end
     end
