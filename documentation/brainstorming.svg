@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
-<svg width="62cm" height="90cm" viewBox="59 8 1234 1787" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="54cm" height="90cm" viewBox="59 8 1072 1782" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g>
     <rect style="fill: #ffffff" x="260" y="60" width="100.4" height="36"/>
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="260" y="60" width="100.4" height="36"/>
@@ -167,10 +167,10 @@
     <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="70" y1="824.9" x2="132.95" y2="824.9"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="454.675" y1="833" x2="454.675" y2="907"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="454.675" y1="1227" x2="454.675" y2="1247"/>
-    <rect style="fill: #ffffff" x="447.675" y="907" width="14" height="320"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="447.675" y="907" width="14" height="320"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="454.676" y1="833" x2="454.676" y2="907"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="454.676" y1="1227" x2="454.676" y2="1420"/>
+    <rect style="fill: #ffffff" x="447.676" y="907" width="14" height="320"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="447.676" y="907" width="14" height="320"/>
   </g>
   <g>
     <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="101.475" y1="818" x2="101.475" y2="908"/>
@@ -179,229 +179,161 @@
     <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="94.475" y="908" width="14" height="480"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="430.675" y1="927.05" x2="108.475" y2="928"/>
-    <polygon style="fill: #000000" points="430.69,932.05 446.675,927.003 430.66,922.05 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.69,932.05 446.675,927.003 430.66,922.05 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.076" y="937.5">&lt;&lt;create&gt;&gt;</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="430.676" y1="927.05" x2="108.475" y2="928"/>
+    <polygon style="fill: #000000" points="430.691,932.05 446.676,927.003 430.661,922.05 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.691,932.05 446.676,927.003 430.661,922.05 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.077" y="937.5">&lt;&lt;create&gt;&gt;</text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="430.675" y1="947.05" x2="108.475" y2="948"/>
-    <polygon style="fill: #000000" points="430.69,952.05 446.675,947.003 430.66,942.05 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.69,952.05 446.675,947.003 430.66,942.05 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.074" y="957.5">convert(diagram_object,diagram_xml)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="430.676" y1="947.05" x2="108.475" y2="948"/>
+    <polygon style="fill: #000000" points="430.691,952.05 446.676,947.003 430.661,942.05 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.691,952.05 446.676,947.003 430.661,942.05 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.075" y="957.5">convert(diagram_object,diagram_xml)</text>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="1195" y="815" width="96.35" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="1195" y="815" width="96.35" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="1243.17" y="836.9">
-      <tspan x="1243.17" y="836.9">DiagramFile</tspan>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="430.676" y1="1207.05" x2="108.475" y2="1208"/>
+    <polygon style="fill: #000000" points="430.691,1212.05 446.676,1207 430.661,1202.05 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.691,1212.05 446.676,1207 430.661,1202.05 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.076" y="1217.5">diagram_xml</text>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="125.475" y1="1227.95" x2="447.676" y2="1227"/>
+    <polygon style="fill: #000000" points="125.46,1222.95 109.475,1228 125.49,1232.95 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="125.46,1222.95 109.475,1228 125.49,1232.95 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.076" y="1237.5">diagram_xml</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="715" y="815" width="108.1" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="715" y="815" width="108.1" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="769.05" y="836.9">
+      <tspan x="769.05" y="836.9">XMLFragment</tspan>
     </text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 0.9906; stroke: #000000" x1="1205" y1="839.9" x2="1281.35" y2="839.9"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.9906; stroke: #000000" x1="725" y1="839.9" x2="813.1" y2="839.9"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="1243.17" y1="851" x2="1243.17" y2="1330"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="1243.17" y1="1410" x2="1243.17" y2="1440"/>
-    <rect style="fill: #ffffff" x="1236.17" y="1330" width="14" height="80"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="1236.17" y="1330" width="14" height="80"/>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1219.18" y1="1329.97" x2="108.475" y2="1328"/>
-    <polygon style="fill: #000000" points="1219.17,1334.97 1235.18,1330 1219.18,1324.97 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1219.17,1334.97 1235.18,1330 1219.18,1324.97 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="672.327" y="1339">&lt;&lt;create&gt;&gt;</text>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1219.18" y1="1349.97" x2="108.475" y2="1348"/>
-    <polygon style="fill: #000000" points="1219.17,1354.97 1235.18,1350 1219.18,1344.97 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1219.17,1354.97 1235.18,1350 1219.18,1344.97 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="672.324" y="1359">updated_diagram_xml(diagram_xml)</text>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="1219.18" y1="1369.97" x2="108.475" y2="1368"/>
-    <polygon style="fill: #000000" points="1219.17,1374.97 1235.18,1370 1219.18,1364.97 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="1219.17,1374.97 1235.18,1370 1219.18,1364.97 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="672.325" y="1379">save</text>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="431" y1="1208.95" x2="108.475" y2="1208"/>
-    <polygon style="fill: #000000" points="430.985,1213.95 447,1209 431.015,1203.95 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="430.985,1213.95 447,1209 431.015,1203.95 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.237" y="1218.5">diagram_xml</text>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="125.475" y1="1228.05" x2="448" y2="1229"/>
-    <polygon style="fill: #000000" points="125.49,1223.05 109.475,1228 125.46,1233.05 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="125.49,1223.05 109.475,1228 125.46,1233.05 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="278.237" y="1238.5">diagram_xml</text>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="740" y="815" width="146.9" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="740" y="815" width="146.9" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="813.45" y="836.9">
-      <tspan x="813.45" y="836.9">Table Object to XML</tspan>
+    <rect style="fill: #ffffff" x="550" y="815" width="142.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="550" y="815" width="142.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="621.35" y="836.9">
+      <tspan x="621.35" y="836.9">DiagramFragments</tspan>
     </text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 0.9906; stroke: #000000" x1="750" y1="839.9" x2="876.9" y2="839.9"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 0.9906; stroke: #000000" x1="560" y1="839.9" x2="682.7" y2="839.9"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="550" y="815" width="178.95" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="550" y="815" width="178.95" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="639.475" y="836.9">
-      <tspan x="639.475" y="836.9">Reference Object To XML</tspan>
-    </text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 0.9906; stroke: #000000" x1="560" y1="839.9" x2="718.95" y2="839.9"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="621.35" y1="851" x2="621.35" y2="935"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="621.35" y1="995" x2="621.35" y2="1410"/>
+    <rect style="fill: #ffffff" x="614.35" y="935" width="14" height="60"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="614.35" y="935" width="14" height="60"/>
   </g>
   <g>
-    <rect style="fill: #ffffff" x="900" y="815" width="162.75" height="36"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 1.9812; stroke: #000000" x="900" y="815" width="162.75" height="36"/>
-    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="981.375" y="836.9">
-      <tspan x="981.375" y="836.9">Column Object to XML</tspan>
-    </text>
-    <line style="fill: none; fill-opacity:0; stroke-width: 0.9906; stroke: #000000" x1="910" y1="839.9" x2="1052.75" y2="839.9"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="597.353" y1="949.666" x2="461.676" y2="947"/>
+    <polygon style="fill: #000000" points="597.255,954.665 613.35,949.98 597.452,944.667 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="597.255,954.665 613.35,949.98 597.452,944.667 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="538.014" y="958.5">new()</text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="639.475" y1="851" x2="639.475" y2="930"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="639.475" y1="1010" x2="639.475" y2="1160"/>
-    <rect style="fill: #ffffff" x="632.475" y="930" width="14" height="80"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="632.475" y="930" width="14" height="80"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="769.05" y1="851" x2="769.05" y2="1010"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="769.05" y1="1090" x2="769.05" y2="1405"/>
+    <rect style="fill: #ffffff" x="762.05" y="1010" width="14" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="762.05" y="1010" width="14" height="80"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="615.475" y1="949.9" x2="462" y2="949"/>
-    <polygon style="fill: #000000" points="615.446,954.9 631.475,949.994 615.505,944.9 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="615.446,954.9 631.475,949.994 615.505,944.9 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="547.237" y="959.5">new(reference_object)</text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="745.051" y1="1029.83" x2="461.676" y2="1027"/>
+    <polygon style="fill: #000000" points="745.001,1034.83 761.05,1029.99 745.101,1024.83 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="745.001,1034.83 761.05,1029.99 745.101,1024.83 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="611.862" y="1038.5">new(diagram_fragment)</text>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="615.475" y1="969.9" x2="462" y2="969"/>
-    <polygon style="fill: #000000" points="615.446,974.9 631.475,969.994 615.505,964.9 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="615.446,974.9 631.475,969.994 615.505,964.9 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="547.237" y="979.5">reference_xml</text>
+    <rect style="fill: #ffffff" x="440" y="1525" width="182.55" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1525" width="182.55" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="531.275" y="1544">DiagramFragments</text>
+    <rect style="fill: #ffffff" x="440" y="1553" width="182.55" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1553" width="182.55" height="8"/>
+    <rect style="fill: #ffffff" x="440" y="1561" width="182.55" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1561" width="182.55" height="8"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="479" y1="989.1" x2="632.475" y2="990"/>
-    <polygon style="fill: #000000" points="479.029,984.1 463,989.006 478.97,994.1 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="479.029,984.1 463,989.006 478.97,994.1 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="547.237" y="999.5">reference_xml</text>
+    <rect style="fill: #ffffff" x="90" y="1520" width="279.6" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="90" y="1520" width="279.6" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="229.8" y="1539">DiagramObjectToDiagramXML</text>
+    <rect style="fill: #ffffff" x="90" y="1548" width="279.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="90" y="1548" width="279.6" height="8"/>
+    <rect style="fill: #ffffff" x="90" y="1556" width="279.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="90" y="1556" width="279.6" height="8"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="813.45" y1="851" x2="813.45" y2="1010"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="813.45" y1="1090" x2="813.45" y2="1300"/>
-    <rect style="fill: #ffffff" x="806.45" y="1010" width="14" height="80"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="806.45" y="1010" width="14" height="80"/>
+    <rect style="fill: #ffffff" x="440" y="1580" width="135.1" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1580" width="135.1" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="507.55" y="1599">XMLFragment</text>
+    <rect style="fill: #ffffff" x="440" y="1608" width="135.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1608" width="135.1" height="8"/>
+    <rect style="fill: #ffffff" x="440" y="1616" width="135.1" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1616" width="135.1" height="8"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="789.45" y1="1029.95" x2="462" y2="1029"/>
-    <polygon style="fill: #000000" points="789.436,1034.95 805.45,1030 789.465,1024.95 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="789.436,1034.95 805.45,1030 789.465,1024.95 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="634.225" y="1039.5">new(reference_object)</text>
+    <rect style="fill: #ffffff" x="440" y="1635" width="256.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1635" width="256.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="568.1" y="1654">ReferenceObjectToDiagram</text>
+    <rect style="fill: #ffffff" x="440" y="1663" width="256.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1663" width="256.2" height="8"/>
+    <rect style="fill: #ffffff" x="440" y="1671" width="256.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1671" width="256.2" height="8"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="789.45" y1="1049.95" x2="462" y2="1049"/>
-    <polygon style="fill: #000000" points="789.436,1054.95 805.45,1050 789.465,1044.95 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="789.436,1054.95 805.45,1050 789.465,1044.95 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="634.225" y="1059.5">table_xml</text>
+    <rect style="fill: #ffffff" x="440" y="1690" width="212.2" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1690" width="212.2" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="546.1" y="1709">TableObjectToDiagram</text>
+    <rect style="fill: #ffffff" x="440" y="1718" width="212.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1718" width="212.2" height="8"/>
+    <rect style="fill: #ffffff" x="440" y="1726" width="212.2" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1726" width="212.2" height="8"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="479" y1="1069.05" x2="806.45" y2="1070"/>
-    <polygon style="fill: #000000" points="479.014,1064.05 463,1069 478.985,1074.05 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="479.014,1064.05 463,1069 478.985,1074.05 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="634.225" y="1079.5">table_xml</text>
+    <rect style="fill: #ffffff" x="440" y="1745" width="232.45" height="28"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1745" width="232.45" height="28"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="556.225" y="1764">ColumnObjectToDiagram</text>
+    <rect style="fill: #ffffff" x="440" y="1773" width="232.45" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1773" width="232.45" height="8"/>
+    <rect style="fill: #ffffff" x="440" y="1781" width="232.45" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1781" width="232.45" height="8"/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="981.375" y1="851" x2="981.375" y2="1090"/>
-    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="981.375" y1="1170" x2="981.375" y2="1304"/>
-    <rect style="fill: #ffffff" x="974.375" y="1090" width="14" height="80"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="974.375" y="1090" width="14" height="80"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="370.609,1542 400.801,1542 400.801,1547 432.289,1547 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419.642,1552 435.642,1547 419.642,1542 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="957.375" y1="1109.97" x2="462" y2="1109"/>
-    <polygon style="fill: #000000" points="957.365,1114.97 973.375,1110 957.385,1104.97 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="957.365,1114.97 973.375,1110 957.385,1104.97 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="718.188" y="1119.5">new(reference_object)</text>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="370.609,1542 400.8,1542 400.8,1602 432.286,1602 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419.639,1607 435.639,1602 419.639,1597 "/>
   </g>
   <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="957.375" y1="1129.97" x2="462" y2="1129"/>
-    <polygon style="fill: #000000" points="957.365,1134.97 973.375,1130 957.385,1124.97 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="957.365,1134.97 973.375,1130 957.385,1124.97 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="718.188" y="1139.5">column_xml</text>
-  </g>
-  <g>
-    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" x1="479" y1="1149.03" x2="974.375" y2="1150"/>
-    <polygon style="fill: #000000" points="479.01,1144.03 463,1149 478.99,1154.03 "/>
-    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="479.01,1144.03 463,1149 478.99,1154.03 "/>
-    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="718.188" y="1159.5">column_xml</text>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="440" y="1515" width="182.55" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1515" width="182.55" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="531.275" y="1534">DiagramFragments</text>
-    <rect style="fill: #ffffff" x="440" y="1543" width="182.55" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1543" width="182.55" height="8"/>
-    <rect style="fill: #ffffff" x="440" y="1551" width="182.55" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1551" width="182.55" height="8"/>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="90" y="1520" width="203.2" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="90" y="1520" width="203.2" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="191.6" y="1539">DiagramObjectToXML</text>
-    <rect style="fill: #ffffff" x="90" y="1548" width="203.2" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="90" y="1548" width="203.2" height="8"/>
-    <rect style="fill: #ffffff" x="90" y="1556" width="203.2" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="90" y="1556" width="203.2" height="8"/>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="440" y="1575" width="336.95" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1575" width="336.95" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="608.475" y="1594">DiagramFragmentsToXMLFragments</text>
-    <rect style="fill: #ffffff" x="440" y="1603" width="336.95" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1603" width="336.95" height="8"/>
-    <rect style="fill: #ffffff" x="440" y="1611" width="336.95" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1611" width="336.95" height="8"/>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="440" y="1635" width="218.25" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1635" width="218.25" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="549.125" y="1654">ReferenceObjectToXML</text>
-    <rect style="fill: #ffffff" x="440" y="1663" width="218.25" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1663" width="218.25" height="8"/>
-    <rect style="fill: #ffffff" x="440" y="1671" width="218.25" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1671" width="218.25" height="8"/>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="440" y="1695" width="174.25" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1695" width="174.25" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="527.125" y="1714">TableObjectToXML</text>
-    <rect style="fill: #ffffff" x="440" y="1723" width="174.25" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1723" width="174.25" height="8"/>
-    <rect style="fill: #ffffff" x="440" y="1731" width="174.25" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1731" width="174.25" height="8"/>
-  </g>
-  <g>
-    <rect style="fill: #ffffff" x="440" y="1750" width="194.5" height="28"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1750" width="194.5" height="28"/>
-    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="537.25" y="1769">ColumnObjectToXML</text>
-    <rect style="fill: #ffffff" x="440" y="1778" width="194.5" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1778" width="194.5" height="8"/>
-    <rect style="fill: #ffffff" x="440" y="1786" width="194.5" height="8"/>
-    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="440" y="1786" width="194.5" height="8"/>
-  </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="294.206,1542 362.6,1542 362.6,1537 432.289,1537 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419.642,1542 435.642,1537 419.642,1532 "/>
-  </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="294.206,1542 362.601,1542 362.601,1597 432.29,1597 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="419.642,1602 435.642,1597 419.642,1592 "/>
-  </g>
-  <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="294.206,1542 363.103,1542 363.103,1649 433.295,1649 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="370.609,1542 401.304,1542 401.304,1649 433.295,1649 "/>
     <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.647,1654 436.647,1649 420.647,1644 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="294.206,1542 363.103,1542 363.103,1709 433.295,1709 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.647,1714 436.647,1709 420.647,1704 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="370.609,1542 401.304,1542 401.304,1704 433.295,1704 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.647,1709 436.647,1704 420.647,1699 "/>
   </g>
   <g>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="294.206,1542 363.103,1542 363.103,1764 433.295,1764 "/>
-    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.647,1769 436.647,1764 420.647,1759 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 8; stroke: #000000" points="370.609,1542 401.304,1542 401.304,1759 433.295,1759 "/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="420.647,1764 436.647,1759 420.647,1754 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="845" y="815" width="194.75" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="845" y="815" width="194.75" height="36"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="942.375" y="836.9">
+      <tspan x="942.375" y="836.9">ReferenceObjectToDiagram</tspan>
+    </text>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke: #000000" x1="855" y1="839.9" x2="1029.75" y2="839.9"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="942.375" y1="851" x2="942.375" y2="1110"/>
+    <line style="fill: none; fill-opacity:0; stroke-width: 1; stroke-dasharray: 8; stroke: #000000" x1="942.375" y1="1190" x2="942.375" y2="1418"/>
+    <rect style="fill: #ffffff" x="935.375" y="1110" width="14" height="80"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="935.375" y="1110" width="14" height="80"/>
+  </g>
+  <g>
+    <line style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x1="918.375" y1="1109.89" x2="461.676" y2="1107"/>
+    <polygon style="fill: #000000" points="918.344,1114.89 934.375,1109.99 918.407,1104.89 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="918.344,1114.89 934.375,1109.99 918.407,1104.89 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="698.525" y="1118.5">new(xml_fragment)</text>
   </g>
 </svg>
