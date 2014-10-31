@@ -1,11 +1,11 @@
 require 'minitest/autorun'
-require_relative '../../../../../lib/Less/Work/Dia/Database/diagram_object_to_xml'
+require_relative '../../../../../lib/Less/Work/Dia/Database/diagram_object_to_diagram_xml'
 
 module Less
   module Work
     module Dia
       module Database
-        class TestDiagramObjectToXML < Minitest::Test
+        class TestDiagramObjectToDiagramXML < Minitest::Test
 
           # Called before every test method runs. Can be used
           # to set up fixture information.
@@ -22,7 +22,7 @@ module Less
 
           # Fake test
           def test_get_column_fragment
-            diagram_object_to_xml = DiagramObjectToXML.new()
+            diagram_object_to_xml = DiagramObjectToDiagramXML.new()
             xml_fragment = diagram_object_to_xml.get_column_fragment
             assert_respond_to(xml_fragment, :to_xml, 'Column fragment is not a nokogiri document fragment')
             composite_nodes = xml_fragment.xpath("dia:composite")
