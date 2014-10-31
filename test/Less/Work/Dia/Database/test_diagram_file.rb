@@ -1,32 +1,22 @@
 require 'minitest/autorun'
 require_relative '../../../../../lib/Less/Work/Dia/diagram_file'
 require_relative '../../../../test_helper'
-
-
+require_relative 'test_parameter_mixin_mixin'
+require_relative 'test_constructor_requires_hash_mixin'
 
 module Less
   module Work
     module Dia
       module Database
         class TestDiagramFile < Minitest::Test
+          include TestParameterMixinMixin
+          include TestConstructorRequiresHashMixin
 
-
-          def test_no_parameter
-            assert_raises ArgumentError do
-              diagram_file = DiagramFile.new()
-            end
+          def setup
+            @test_object = return_valid_diagram_file_object
+            @test_class_constant = DiagramFile
           end
 
-
-          def test_nil_parameter
-            assert_raises ArgumentError do
-              diagram_file = DiagramFile.new(nil)
-            end
-          end
-
-          def test_valid_parameter
-            assert_silent { diagram_file = return_valid_diagram_file_object }
-          end
 
           def test_read_file_returns_content
             diagram_file = return_valid_diagram_file_object
@@ -35,8 +25,13 @@ module Less
 
           private
           def return_valid_diagram_file_object
-            DiagramFile.new({:file_path => TestFiles::TEST })
+            DiagramFile.new(return_valid_hash_parameter)
           end
+
+          def return_valid_hash_parameter
+            {:file_path => TestFiles::TEST }
+          end
+
 
         end
       end
