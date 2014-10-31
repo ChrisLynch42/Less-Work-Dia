@@ -1,12 +1,12 @@
 require 'nokogiri'
-require_relative 'xml_fragment_mixin'
+require_relative 'diagram_fragments'
 
 module Less
   module Work
     module Dia
       module Database
-        class DiagramObjectToXML
-          include XMLFragmentMixin
+        class DiagramObjectToDiagramXML
+          include DiagramFragments
 
           def get_column_fragment
             namespaced_fragement column_xml
