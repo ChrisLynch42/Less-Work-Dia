@@ -4,7 +4,7 @@ module Less
       module Database
         class DiagramFragments
 
-          def empty_diagram_xml
+          def diagram
             <<-emptydiagram
               <?xml version="1.0" encoding="UTF-8"?>
               <dia:diagram xmlns:dia="http://www.lysator.liu.se/~alla/dia/">
@@ -76,7 +76,7 @@ module Less
             emptydiagram
           end
 
-          def reference_xml
+          def reference
             <<-referencexml
               <dia:object type="Database - Reference" version="0" id="O0">
                 <dia:attribute name="obj_pos">
@@ -147,7 +147,7 @@ module Less
             referencexml
           end
 
-          def empty_table_xml
+          def table
             <<-emptytablexml
               <dia:object type="Database - Table" version="0" id="O0">
                 <dia:attribute name="obj_pos">
@@ -222,7 +222,7 @@ module Less
             emptytablexml
           end
 
-          def column_xml
+          def column
             <<-columnxml
               <dia:composite type="table_attribute">
                 <dia:attribute name="name">
