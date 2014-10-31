@@ -4,11 +4,6 @@ module Less
       module Database
         class DiagramFragments
 
-          def namespaced_fragement(xml_fragment)
-            xml_doc = Nokogiri::XML(%Q(<root xmlns:dia='http://www.lysator.liu.se/~alla/dia/'/>))
-            xml_doc.fragment(xml_fragment)
-          end
-
           def empty_diagram_xml
             <<-emptydiagram
               <?xml version="1.0" encoding="UTF-8"?>
