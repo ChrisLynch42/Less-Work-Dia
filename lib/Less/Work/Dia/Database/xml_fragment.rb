@@ -1,3 +1,4 @@
+require 'nokogiri'
 require_relative '../../parameter_mixin'
 
 module Less
