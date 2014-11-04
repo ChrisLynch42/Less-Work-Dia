@@ -27,6 +27,23 @@ module Less
             # Do nothing
           end
 
+          def test_has_valid_xml
+            column_xml_fragment = return_valid_xml_fragment_object
+            refute_nil(column_xml_fragment.xml,"Column xml fragement did not have xml nodeset")
+            assert(column_xml_fragment.xml.to_xml.length > 20,"Column xml fragement to_xml did not return a long enough response.")
+            root_nodeset = column_xml_fragment.xml.xpath('dia:composite')
+            refute_nil(root_nodeset,"Nodeset returned from //dia:composite was nil")
+            refute_nil(root_nodeset.first,"Nodeset did not have a first record.")
+            assert_equal('table_attribute',root_nodeset.first['type'],"The first record of the nodeset did not have a type of table_attribute")
+            assert_equal(6,column_xml_fragment.xml.xpath('.//dia:attribute').length,".//dia:attribute did not return the correct number of records.")
+          end
+
+          # def test_has_column_attributes
+          #   column_xml_fragment = return_valid_xml_fragment_object
+          #   assert_equal('table_attribute',column_xml_fragment.xml.first['type'],"Did not match")
+          #
+          # end
+
 
 
           private
