@@ -28,16 +28,10 @@ module Less
             assert_equal('spells', diagram_parser.diagram_object.tables['spells'].name, "Diagram object spells table's name was not 'spells'.")
             assert_equal(11, diagram_parser.diagram_object.tables['spells'].columns.length, "Diagram object spells table column count was not 11.")
             refute_nil(diagram_parser.diagram_object.tables['spells'].diagram_id, "Diagram object spells table has a nil diagram_id.")
-            puts diagram_parser.current_object_id
             refute_nil(diagram_parser.diagram_object.tables['spells'].columns['id'],"Diagram object Spells table id column was missing.")
             assert_equal('id', diagram_parser.diagram_object.tables['spells'].columns['id'].name, "Diagram object spells table's id column's name was not 'id'.")
             assert_equal(true, diagram_parser.diagram_object.tables['spells'].columns['id'].primary_key, "Diagram object spells table's id column's was not a primary key.")
 
-          end
-
-          def test_diagram_parser_diagram_object
-            diagram_parser = return_valid_diagram_parser_object
-            assert_equal('O55',diagram_parser.new_object_id,"New object id was not O55")
           end
 
           private
