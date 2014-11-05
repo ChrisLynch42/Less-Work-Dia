@@ -14,16 +14,33 @@ module Less
           include ParameterMixin
           include ObjectParserMixin
 
-          attr_reader :diagram_object
+          attr_reader :diagram_object, :current_object_id
 
 
           def initialize(parameters = {})
             self.diagram_object=DiagramObject.new()
+            self.current_object_id ='O0'
             parse(parameters);
           end
 
+          def new_object_id()
+            current_number_string = self.current_object_id()[1,self.current_object_id().length]
+            new_number = current_number_string.to_i
+            new_number = new_number + 1
+            self.current_object_id = self.current_object_id()[0] + new_number.to_s
+          end
+
           private
-          attr_writer :diagram_object
+          attr_writer :diagram_object, :current_object_id
+
+
+
+
+          def update_object_id(local_object_id)
+            if self.current_object_id.length < local_object_id.length || local_object_id > self.current_object_id
+              self.current_object_id =  local_object_id
+            end
+          end
 
           def parse(parameters)
             parameters_pair_check parameters, :diagram_xml
@@ -37,7 +54,8 @@ module Less
 
               reference_nodes.each do |reference_node|
                 reference = Reference.new()
-                reference.diagram_id = reference_node.attr('id').to_s
+                reference.diagram_id = reference_node['id'].to_s
+                update_object_id(reference.diagram_id)
                 diagram_object.references[reference.diagram_id] = reference
               end
             end
@@ -73,6 +91,8 @@ module Less
               table_nodes.each do |table_node|
                 table = Table.new()
                 table.name=get_dia_string(table_node, 'name')
+                table.diagram_id = table_node['id'].to_s
+                update_object_id(table.diagram_id)
                 parse_table_columns(table_node, table)
                 diagram_object.tables[table.name] = table
                 diagram_object.tables_by_id[table.diagram_id] = table
