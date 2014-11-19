@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative '../../../../../lib/Less/Work/Dia/Database/diagram_parser'
 require_relative '../../../../../lib/Less/Work/Dia/diagram_file'
-require_relative '../../../../test_helper'
+require_relative 'diagram_parser_helper_mixin'
 require_relative 'test_parameter_mixin_mixin'
 require_relative 'test_constructor_requires_hash_mixin'
 
@@ -13,6 +13,7 @@ module Less
         class TestDiagramParser < Minitest::Test
           include TestParameterMixinMixin
           include TestConstructorRequiresHashMixin
+          include DiagramParserHelperMixin
 
           def setup
             @test_object = return_valid_diagram_parser_object
@@ -36,17 +37,10 @@ module Less
 
           private
 
-          def return_valid_diagram_parser_object
-            DiagramParser.new(return_valid_hash_parameter)
-          end
-
           def return_valid_hash_parameter
-            {:diagram_xml => return_valid_diagram_file_object().diagram_xml}
+            return_valid_parser_hash_parameter
           end
 
-          def return_valid_diagram_file_object
-            DiagramFile.new({:file_path => TestFiles::TEST })
-          end
 
         end
       end
