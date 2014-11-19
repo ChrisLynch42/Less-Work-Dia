@@ -10,7 +10,7 @@ module Less
   module Work
     module Dia
       module Database
-        class DiagramParser
+        class DiagramReader
           include ParameterMixin
           include ObjectParserMixin
 

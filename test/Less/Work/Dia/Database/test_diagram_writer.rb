@@ -1,11 +1,11 @@
 require 'minitest/autorun'
-require_relative '../../../../../lib/Less/Work/Dia/Database/diagram_object_to_diagram_xml'
+require_relative '../../../../../lib/Less/Work/Dia/Database/diagram_writer'
 
 module Less
   module Work
     module Dia
       module Database
-        class TestDiagramObjectToDiagramXML < Minitest::Test
+        class TestDiagramWriter < Minitest::Test
 
           # Called before every test method runs. Can be used
           # to set up fixture information.

@@ -3,7 +3,7 @@ module Less
   module Work
     module Dia
       module Database
-        class DiagramObjectToDiagramXML
+        class DiagramWriter
 
 
         end

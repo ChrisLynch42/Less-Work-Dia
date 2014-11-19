@@ -6,11 +6,11 @@ module Less
   module Work
     module Dia
       module Database
-        module DiagramParserHelperMixin
+        module DiagramReaderHelperMixin
           include DiagramFileHelperMixin
 
           def return_valid_diagram_parser_object
-            DiagramParser.new(return_valid_hash_parameter)
+            DiagramReader.new(return_valid_hash_parameter)
           end
 
           def return_valid_parser_hash_parameter
