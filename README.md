@@ -1,6 +1,6 @@
 # Less::Work::Dia
 
-TODO: Write a gem description
+The purpose of the gem is to provide an API to read and write Dia diagram files.  This first release will only read Database diagrams.
 
 ## Installation
 
