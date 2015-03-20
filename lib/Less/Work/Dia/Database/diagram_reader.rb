@@ -39,6 +39,7 @@ module Less
               reference_nodes.each do |reference_node|
                 reference = Reference.new()
                 reference.diagram_id = reference_node['id'].to_s
+                parse_reference_endpoints(reference_node)
                 self.diagram_object.update_object_id(reference.diagram_id)
                 diagram_object.references[reference.diagram_id] = reference
               end
