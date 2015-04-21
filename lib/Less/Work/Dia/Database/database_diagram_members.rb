@@ -2,7 +2,7 @@ module Less
   module Work
     module Dia
       module Database
-        class DatabaseDefinitions
+        class DatabaseDiagramMembers
           attr_reader :tables, :references, :tables_by_id, :current_object_id
 
           def initialize

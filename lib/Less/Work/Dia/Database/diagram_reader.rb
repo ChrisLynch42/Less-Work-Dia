@@ -3,7 +3,7 @@ require_relative '../object_parser_mixin'
 require_relative 'table'
 require_relative 'reference'
 require_relative 'column'
-require_relative 'database_definitions'
+require_relative 'database_diagram_members'
 
 
 module Less
@@ -18,7 +18,7 @@ module Less
 
 
           def initialize(parameters = {})
-            self.diagram_object=DatabaseDefinitions.new()
+            self.diagram_object=DatabaseDiagramMembers.new()
             parse(parameters);
           end
 

@@ -1,5 +1,5 @@
 require 'minitest/autorun'
-require_relative '../../../../../lib/Less/Work/Dia/Database/database_definitions'
+require_relative '../../../../../lib/Less/Work/Dia/Database/database_diagram_members'
 require_relative 'diagram_reader_helper_mixin'
 
 
@@ -7,11 +7,11 @@ module Less
   module Work
     module Dia
       module Database
-        class TestDatabaseDefinitions < Minitest::Test
+        class TestDatabaseDiagramMembers < Minitest::Test
 
           def setup
-            @test_object = DatabaseDefinitions.new()
-            @test_class_constant = DatabaseDefinitions
+            @test_object = DatabaseDiagramMembers.new()
+            @test_class_constant = DatabaseDiagramMembers
           end
 
 
