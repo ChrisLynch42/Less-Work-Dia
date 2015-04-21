@@ -1,9 +1,11 @@
+require_relative './column_mixin'
+
 module Less
   module Work
     module Dia
       module Database
         class Column
-          attr_accessor :name, :data_type, :primary_key, :nullable, :unique, :comment
+          include ColumnMixin
 
         end
       end
