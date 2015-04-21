@@ -39,33 +39,33 @@ module Less
               reference_nodes.each do |reference_node|
                 reference = Reference.new()
                 reference.diagram_id = reference_node['id'].to_s
-                parse_reference_endpoints(reference_node)
+                parse_reference_endpoints(reference_node, reference)
                 self.diagram_object.update_object_id(reference.diagram_id)
                 diagram_object.references[reference.diagram_id] = reference
               end
             end
           end
 
-          def parse_reference_endpoints(reference_node)
+          def parse_reference_endpoints(reference_node, reference)
             connection_xpath = "./dia:connections/dia:connection"
-            connection_nodes = target_node.xpath(connection_xpath)
+            connection_nodes = reference_node.xpath(connection_xpath)
             if !connection_nodes.nil?
               connection_nodes.each { |side|
                 if !side.nil?
                   if side['handle'] == '0'
-                    set_reference_point_values(reference_node.start_point, side)
+                    set_reference_point_values(reference.start_point, side)
                   else
-                    set_reference_point_values(reference_node.end_point, side)
+                    set_reference_point_values(reference.end_point, side)
                   end
                 end
               }
             end
           end
 
-          def set_reference_point_values(target, side)
-            target.handle=side['handle']
-            target.target_object_id=side['to']
-            target.connection=side['connection']
+          def set_reference_point_values(reference, side)
+            reference.handle=side['handle']
+            reference.target_object_id=side['to']
+            reference.connection=side['connection']
           end
 
 
