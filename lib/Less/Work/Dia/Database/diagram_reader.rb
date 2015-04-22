@@ -41,7 +41,7 @@ module Less
                 reference.diagram_id = reference_node['id'].to_s
                 parse_reference_endpoints(reference_node, reference)
                 self.diagram_object.update_object_id(reference.diagram_id)
-                diagram_object.references[reference.diagram_id] = reference
+                self.diagram_object.references[reference.diagram_id] = reference
               end
             end
           end
@@ -79,8 +79,8 @@ module Less
                 table.diagram_id = table_node['id'].to_s
                 self.diagram_object.update_object_id(table.diagram_id)
                 parse_table_columns(table_node, table)
-                diagram_object.tables[table.name] = table
-                diagram_object.tables_by_id[table.diagram_id] = table
+                self.diagram_object.tables[table.name] = table
+                self.diagram_object.tables_by_id[table.diagram_id] = table
               end
             end
           end
