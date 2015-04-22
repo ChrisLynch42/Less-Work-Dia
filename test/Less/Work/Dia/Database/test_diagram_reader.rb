@@ -27,11 +27,11 @@ module Less
             assert_equal(28, diagram_parser.database_diagram_members.references.length,"Diagram object reference count was not 28.")
             refute_nil(diagram_parser.database_diagram_members.tables['spells'],"Diagram object Spells table was missing.")
             assert_equal('spells', diagram_parser.database_diagram_members.tables['spells'].name, "Diagram object spells table's name was not 'spells'.")
-            assert_equal(11, diagram_parser.database_diagram_members.tables['spells'].columns.length, "Diagram object spells table column count was not 11.")
+            assert_equal(11, diagram_parser.database_diagram_members.tables['spells'].get_column_names().length, "Diagram object spells table column count was not 11.")
             refute_nil(diagram_parser.database_diagram_members.tables['spells'].diagram_id, "Diagram object spells table has a nil diagram_id.")
-            refute_nil(diagram_parser.database_diagram_members.tables['spells'].columns['id'],"Diagram object Spells table id column was missing.")
-            assert_equal('id', diagram_parser.database_diagram_members.tables['spells'].columns['id'].name, "Diagram object spells table's id column's name was not 'id'.")
-            assert_equal(true, diagram_parser.database_diagram_members.tables['spells'].columns['id'].primary_key, "Diagram object spells table's id column's was not a primary key.")
+            refute_nil(diagram_parser.database_diagram_members.tables['spells'].get_column('id'),"Diagram object Spells table id column was missing.")
+            assert_equal('id', diagram_parser.database_diagram_members.tables['spells'].get_column('id').name, "Diagram object spells table's id column's name was not 'id'.")
+            assert_equal(true, diagram_parser.database_diagram_members.tables['spells'].get_column('id').primary_key, "Diagram object spells table's id column's was not a primary key.")
 
           end
 

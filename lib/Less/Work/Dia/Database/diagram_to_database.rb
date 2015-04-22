@@ -20,10 +20,16 @@ module Less
           attr_writer :database, :diagram_reader
 
 
-          def convert() {
+          def convert()
+            this.diagram_reader.database_diagram_members.tables.each do | table_name, table_member |
+              table = Table.new()
+              table.columns_in_order.each do | column |
+                table
+              end
+              this.database.tables[table_name] =
 
+            end
 
-          }
           end
         end
       end

@@ -97,8 +97,7 @@ module Less
                 column.nullable = get_dia_boolean(column_node, 'nullable')
                 column.unique = get_dia_boolean(column_node, 'unique')
 
-                table.columns[column.name] = column
-                table.columns_in_order[table.columns_in_order.length] = column
+                table.add_column({:column => column})
               end
             end
           end
