@@ -14,17 +14,17 @@ module Less
           include ParameterMixin
           include ObjectParserMixin
 
-          attr_reader :diagram_object, :current_object_id
+          attr_reader :database_diagram_members, :current_object_id
 
 
           def initialize(parameters = {})
-            self.diagram_object=DatabaseDiagramMembers.new()
+            self.database_diagram_members=DatabaseDiagramMembers.new()
             parse(parameters);
           end
 
 
           private
-          attr_writer :diagram_object
+          attr_writer :database_diagram_members
 
           def parse(parameters)
             parameters_pair_check parameters, :diagram_xml
@@ -40,8 +40,8 @@ module Less
                 reference = Reference.new()
                 reference.diagram_id = reference_node['id'].to_s
                 parse_reference_endpoints(reference_node, reference)
-                self.diagram_object.update_object_id(reference.diagram_id)
-                self.diagram_object.references[reference.diagram_id] = reference
+                self.database_diagram_members.update_object_id(reference.diagram_id)
+                self.database_diagram_members.references[reference.diagram_id] = reference
               end
             end
           end
@@ -77,10 +77,10 @@ module Less
                 table = Table.new()
                 table.name=get_dia_string(table_node, 'name')
                 table.diagram_id = table_node['id'].to_s
-                self.diagram_object.update_object_id(table.diagram_id)
+                self.database_diagram_members.update_object_id(table.diagram_id)
                 parse_table_columns(table_node, table)
-                self.diagram_object.tables[table.name] = table
-                self.diagram_object.tables_by_id[table.diagram_id] = table
+                self.database_diagram_members.tables[table.name] = table
+                self.database_diagram_members.tables_by_id[table.diagram_id] = table
               end
             end
           end
