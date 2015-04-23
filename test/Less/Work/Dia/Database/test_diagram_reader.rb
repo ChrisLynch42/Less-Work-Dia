@@ -16,13 +16,13 @@ module Less
           include DiagramReaderHelperMixin
 
           def setup
-            @test_object = return_valid_diagram_parser_object
+            @test_object = return_valid_diagram_reader_object
             @test_class_constant = DiagramReader
           end
 
 
           def test_diagram_parser_diagram_object
-            diagram_parser = return_valid_diagram_parser_object
+            diagram_parser = return_valid_diagram_reader_object
             assert_equal(27, diagram_parser.database_diagram_members.tables.length,"Diagram object table count was not 27.")
             assert_equal(28, diagram_parser.database_diagram_members.references.length,"Diagram object reference count was not 28.")
             refute_nil(diagram_parser.database_diagram_members.tables['spells'],"Diagram object Spells table was missing.")

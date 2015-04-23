@@ -9,7 +9,7 @@ module Less
         module DiagramReaderHelperMixin
           include DiagramFileHelperMixin
 
-          def return_valid_diagram_parser_object
+          def return_valid_diagram_reader_object
             DiagramReader.new(return_valid_hash_parameter)
           end
 
