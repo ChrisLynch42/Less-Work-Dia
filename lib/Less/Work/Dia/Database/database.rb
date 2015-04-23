@@ -7,7 +7,7 @@ module Less
 
           def initialize
             self.tables = Hash.new()
-            self.relationships = Hash.new()
+            self.relationships = []
           end
 
           private
