@@ -38,7 +38,7 @@ module Less
           private
 
           def return_valid_hash_parameter
-            return_valid_parser_hash_parameter
+            return_valid_diagram_file_hash_parameter
           end
 
 

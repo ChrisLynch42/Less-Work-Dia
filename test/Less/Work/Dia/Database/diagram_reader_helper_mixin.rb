@@ -13,7 +13,7 @@ module Less
             DiagramReader.new(return_valid_hash_parameter)
           end
 
-          def return_valid_parser_hash_parameter
+          def return_valid_diagram_file_hash_parameter
             {:diagram_xml => return_valid_diagram_file_object().diagram_xml}
           end
         end
