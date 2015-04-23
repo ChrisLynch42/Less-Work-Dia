@@ -1,4 +1,5 @@
 require_relative 'diagram_reader'
+require_relative 'relationship'
 
 module Less
   module Work
@@ -8,8 +9,9 @@ module Less
 
           attr_reader :database, :diagram_reader
           def initialize(parameters = {})
-            this.diagram_reader = DiagramReader.new(parameters)
-            this.database = Database.new()
+            self.diagram_reader = DiagramReader.new(parameters)
+            self.database = Database.new()
+            convert()
           end
 
 
@@ -21,15 +23,22 @@ module Less
 
 
           def convert()
-            this.diagram_reader.database_diagram_members.tables.each do | table_name, table_member |
-              table = Table.new()
-              table.columns_in_order.each do | column |
-                table
-              end
-              this.database.tables[table_name] =
-
+            self.diagram_reader.database_diagram_members.tables.each do | table_name, table_member |
+              self.database.tables[table_name] = table_member
             end
 
+            self.diagram_reader.database_diagram_members.references.each do | reference_id, reference |
+              relationship = Relationship.new()
+              table_parent = self.diagram_reader.database_diagram_members.tables[reference.start_point.target_object_id]
+              #relationship.parent_table = table_parent.name
+
+              table_child = self.diagram_reader.database_diagram_members.tables[reference.end_point.target_object_id]
+              #relationship.child_table = table_child.name
+
+
+
+              database.relationships[database.relationships.length] = relationship
+            end
           end
         end
       end
