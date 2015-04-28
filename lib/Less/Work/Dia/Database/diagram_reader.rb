@@ -80,7 +80,7 @@ module Less
                 self.database_diagram_members.update_object_id(table.diagram_id)
                 parse_table_columns(table_node, table)
                 self.database_diagram_members.tables[table.name] = table
-                self.database_diagram_members.tables_by_id[table.diagram_id] = table
+                self.database_diagram_members.tables_by_id[table.diagram_id] = table.name
               end
             end
           end
