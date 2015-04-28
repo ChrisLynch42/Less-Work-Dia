@@ -40,6 +40,13 @@ module Less
             assert_equal('id', diagram_parser.database_diagram_members.tables['spells'].get_column('id').name, "Diagram object spells table's id column's name was not 'id'.")
             assert_equal(true, diagram_parser.database_diagram_members.tables['spells'].get_column('id').primary_key, "Diagram object spells table's id column's was not a primary key.")
 
+            ##check column names order
+            column_names = diagram_parser.database_diagram_members.tables['spells'].get_column_names()
+            assert_equal('id', column_names[0], "Diagram object spells table's 0 column names was not 'id'.")
+            assert_equal('title', column_names[1], "Diagram object spells table's 1 column names was not 'id'.")
+            assert_equal('ritual', column_names[10], "Diagram object spells table's 1 column names was not 'id'.")
+
+
             assert_equal('spells', diagram_parser.database_diagram_members.tables_by_id['O28'], "Diagram object table_by_id value was not 'spells'.")
 
 
