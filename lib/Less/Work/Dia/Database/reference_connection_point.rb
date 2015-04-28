@@ -5,14 +5,13 @@ module Less
     module Dia
       module Database
         class ReferenceConnectionPoint < ConnectionPoint
-          attr_accessor :column_name, :table_name
 
           def initialize()
             @translate_hash = Hash.new()
             (12..200).each { |val|
               evenVal = val - (val % 2)
               row = (evenVal - 10)
-              row = row / 2
+              row = (row / 2) - 1
               @translate_hash[val]=row;
               @translate_hash[val.to_s]=row;
 
