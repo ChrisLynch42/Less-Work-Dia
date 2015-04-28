@@ -25,6 +25,19 @@ module Less
             diagram_parser = return_valid_diagram_reader_object
             assert_equal(27, diagram_parser.database_diagram_members.tables.length,"Diagram object table count was not 27.")
             assert_equal(28, diagram_parser.database_diagram_members.references.length,"Diagram object reference count was not 28.")
+
+
+            reference_id = 'O2'
+            refute_nil(diagram_parser.database_diagram_members.references[reference_id],"Diagram object #{reference_id} reference was nil.")
+            refute_nil(diagram_parser.database_diagram_members.references[reference_id].start_point,"Diagram object #{reference_id} reference start point was nil.")
+            refute_nil(diagram_parser.database_diagram_members.references[reference_id].start_point.target_object_id,"Diagram object #{reference_id} reference target object id was nil.")
+
+            reference_id = 'O54'
+            refute_nil(diagram_parser.database_diagram_members.references[reference_id],"Diagram object #{reference_id} reference was nil.")
+            refute_nil(diagram_parser.database_diagram_members.references[reference_id].start_point,"Diagram object #{reference_id} reference start point was nil.")
+            refute_nil(diagram_parser.database_diagram_members.references[reference_id].start_point.target_object_id,"Diagram object #{reference_id} reference target object id was nil.")
+
+
             refute_nil(diagram_parser.database_diagram_members.tables['spells'],"Diagram object Spells table was missing.")
             assert_equal('spells', diagram_parser.database_diagram_members.tables['spells'].name, "Diagram object spells table's name was not 'spells'.")
             assert_equal(11, diagram_parser.database_diagram_members.tables['spells'].get_column_names().length, "Diagram object spells table column count was not 11.")
