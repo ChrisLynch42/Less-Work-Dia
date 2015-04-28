@@ -26,7 +26,15 @@ module Less
             diagram_to_database = return_valid_diagram_to_database_object
             database = diagram_to_database.database
             assert_equal(27, database.tables.length,"Diagram object table count was not 27.")
+
+
             assert_equal(28, database.relationships.length,"Diagram object reference count was not 28.")
+            refute_nil(database.relationships[0],"Diagram first relationship is missing.")
+            assert_equal('column_set', database.relationships[0].parent_table,"Diagram first relationship parent table does not match.")
+            assert_equal('column_id', database.relationships[0].referenced_key_column,"Diagram first relationship parent reference key column does not match.")
+
+
+
             refute_nil(database.tables['spells'],"Diagram object Spells table was missing.")
             assert_equal('spells', database.tables['spells'].name, "Diagram object spells table's name was not 'spells'.")
             assert_equal(11, database.tables['spells'].get_column_names().length, "Diagram object spells table column count was not 11.")
